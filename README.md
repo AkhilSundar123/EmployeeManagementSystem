@@ -21,6 +21,14 @@ Returns json data about all employees.
 None
 
 - Response
-  - Content
+  - Content: `{
+    "dept": {
+      "deptid": 1,
+      "deptname": "Science"
+    },
+    "empid": 1,
+    "firstname": "Jacky",
+    "lastname": "Baghnani"
+  }`
 
 
