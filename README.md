@@ -32,15 +32,15 @@ None
   },{
     "dept": {
       "deptid": 2,
-      "deptname": "Science"
+      "deptname": "Technology"
     },
-    "empid": 1,
+    "empid": 2,
     "firstname": "James",
     "lastname": "Smith"
   }]`
   
-## Show Users by Employee id
-Returns json data about Employee
+## Show Employee by id
+Returns json data about Employee.
 
 - URL<br />
 /EmployeeManagementSystem/webapi/employees/1
@@ -52,7 +52,7 @@ Returns json data about Employee
 None
 
 - Response
-  - Content: `[{
+  - Content: `{
     "dept": {
       "deptid": 1,
       "deptname": "Science"
@@ -61,4 +61,24 @@ None
     "firstname": "Michael",
     "lastname": "Warner"
   }`
+ 
+## Add Employee 
+Adds an Employee to the database.
+- Method<br />
+`POST`
+
+- URL Params<br />
+  - Required:<br />
+  `empid=[integer]`
+
+- Response
+  - Content: `[{
+    "dept": {
+      "deptid": 1,
+      "deptname": "Science"
+    },
+    "empid": 1,
+    "firstname": "Michael",
+    "lastname": "Warner"
+  }
 
