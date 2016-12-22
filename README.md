@@ -45,3 +45,20 @@ Returns json data about Employee
 - URL<br />
 /EmployeeManagementSystem/webapi/employees/1
 
+- Method<br />
+`GET`
+
+- URL Params<br />
+None
+
+- Response
+  - Content: `[{
+    "dept": {
+      "deptid": 1,
+      "deptname": "Science"
+    },
+    "empid": 1,
+    "firstname": "Michael",
+    "lastname": "Warner"
+  }`
+
