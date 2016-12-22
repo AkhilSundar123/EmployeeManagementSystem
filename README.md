@@ -174,7 +174,7 @@ None
   }
 ]`  
 
-## Add Department 
+## Add a Department 
 Adds a Department to the database.
 
 - URL<br />
@@ -193,3 +193,28 @@ Adds a Department to the database.
     "deptname": "Business"
   }`
   
+## Update a Department 
+Adds a Department to the database.
+
+- URL<br />
+/EmployeeManagementSystem/webapi/departments/3
+
+- Method<br />
+`PUT`
+
+- URL Params<br />
+  - Required:<br />
+ `deptid=[integer]`
+
+- Data Params<br />
+ `{
+    "deptid": 3,
+    "deptname": "Finance"
+  }`
+  
+- Response
+  - Content: 
+  `{
+  "deptid": 3,
+  "deptname": "Finance"
+}`
