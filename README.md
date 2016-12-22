@@ -91,7 +91,7 @@ Adds an Employee to the database.
  `{
   "dept": {
     "deptid": 2,
-    "deptname": "Business"
+    "deptname": "Technology"
   },
   "empid": 3,
   "firstname": "Mat",
@@ -149,3 +149,47 @@ None
 - Response<br />
  None
 
+## Show Departments
+Returns json data about all employees.
+
+- #### URL<br />
+/EmployeeManagementSystem/webapi/departments 
+
+- Method<br />
+`GET`
+
+- URL Params<br />
+None
+
+- Response
+  - Content: 
+`[
+  {
+    "deptid": 1,
+    "deptname": "Science"
+  },
+  {
+    "deptid": 2,
+    "deptname": "Technology"
+  }
+]`  
+
+## Add Department 
+Adds a Department to the database.
+
+- URL<br />
+/EmployeeManagementSystem/webapi/departments
+
+- Method<br />
+`POST`
+
+- URL Params<br />
+  - Required:<br />
+  None
+
+- Data Params<br />
+ `{
+    "deptid": 3,
+    "deptname": "Business"
+  }`
+  
