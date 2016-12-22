@@ -8,7 +8,7 @@ Used Servlet 3.0 Container.
 Language - Java 7
 Server - Apache Tomcat 7
 
-### Show Users
+## Show Users
 Returns json data about all employees.
 
 - URL<br />
@@ -21,6 +21,6 @@ Returns json data about all employees.
 None
 
 - Response
-  -- Content
+  -Content
 
 
