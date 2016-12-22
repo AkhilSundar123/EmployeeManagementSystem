@@ -35,8 +35,8 @@ None
       "deptname": "Science"
     },
     "empid": 1,
-    "firstname": "Michael",
-    "lastname": "Warner"
+    "firstname": "James",
+    "lastname": "Smith"
   }]`
   
 ## Show Users by Employee id
