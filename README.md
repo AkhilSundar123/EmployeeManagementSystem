@@ -67,6 +67,10 @@ None
  
 ## Add Employee 
 Adds an Employee to the database.
+
+- URL<br />
+/EmployeeManagementSystem/webapi/employees/2
+
 - Method<br />
 `POST`
 
@@ -84,10 +88,22 @@ Adds an Employee to the database.
 }`
 
 - Response<br />
- None
+ `{
+  "dept": {
+    "deptid": 2,
+    "deptname": "Business"
+  },
+  "empid": 22,
+  "firstname": "Mat",
+  "lastname": "Hayden"
+}`
   
 ## Update Employee data
-Updates the data of an Employee
+Updates the data of an Employee.
+
+- URL<br />
+/EmployeeManagementSystem/webapi/employees/2
+
 - Method<br />
 `PUT`
 
@@ -106,3 +122,19 @@ Updates the data of an Employee
 
 - Response<br />
  None
+
+## Delete Employee record
+Deletes record of an Employee.
+- Method<br />
+`DELETE`
+
+- URL Params<br />
+  - Required:<br />
+  `empid=[integer]`
+
+- Data Params<br />
+None
+
+- Response<br />
+ None
+
