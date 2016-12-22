@@ -208,7 +208,6 @@ Adds a Department to the database.
 
 - Data Params<br />
  `{
-    "deptid": 3,
     "deptname": "Finance"
   }`
   
@@ -218,3 +217,22 @@ Adds a Department to the database.
   "deptid": 3,
   "deptname": "Finance"
 }`
+
+## Delete a Department 
+Delete a Department from the database.
+
+- URL<br />
+/EmployeeManagementSystem/webapi/departments/3
+
+- Method<br />
+`DELETE`
+
+- URL Params<br />
+  - Required:<br />
+ `deptid=[integer]`
+
+- Data Params<br />
+ - None
+  
+- Response
+  - None
