@@ -20,6 +20,9 @@ Returns json data about all employees.
 - URL Params<br />
 None
 
+- Data Params<br />
+None
+
 - Response
   - Content: `[{
     "dept": {
@@ -159,6 +162,9 @@ Returns json data about all employees.
 `GET`
 
 - URL Params<br />
+None
+
+- Data Params<br />
 None
 
 - Response
