@@ -2,13 +2,13 @@
 It is RESTFUL APIs for managing a database of Employees and Department.
 
 
-Created two entities Employee and Department.
-Created APIs for supporting POST, PUT, DELETE and GET operations on the employee and related objects. 
-Used Servlet 3.0 Container.
-Language - Java 7
-Server - Apache Tomcat 7
+Created two entities Employee and Department.<br />
+Created APIs for supporting POST, PUT, DELETE and GET operations on the employee and related objects. <br />
+Used Servlet 3.0 Container.<br />
+- #### Language - Java 7
+- #### Server - Apache Tomcat 7
 
-## Show Employees
+## Show all Employees.
 Returns json data about all employees.
 
 - #### URL<br />
@@ -42,7 +42,7 @@ None
     "lastname": "Smith"
   }]`
   
-## Show Employee by id
+## Show Employee by id.
 Returns json data about Employee.
 
 - #### URL<br />
@@ -68,7 +68,7 @@ None
     "lastname": "Warner"
   }`
  
-## Add Employee 
+## Add an Employee. 
 Adds an Employee to the database.
 
 - #### URL<br />
@@ -101,7 +101,7 @@ Adds an Employee to the database.
   "lastname": "Hayden"
 }`
   
-## Update Employee data
+## Update an Employee data.
 Updates the data of an Employee.
 
 - #### URL<br />
@@ -133,7 +133,7 @@ Updates the data of an Employee.
   "lastname": "Hayden"
 }`
 
-## Delete Employee record
+## Delete an Employee record.
 Deletes record of an Employee.
 
 - #### URL<br />
@@ -152,7 +152,7 @@ None
 - #### Response<br />
  None
 
-## Show Departments
+## Show all Departments.
 Returns json data about all employees.
 
 - #### URL<br />
@@ -180,7 +180,7 @@ None
   }
 ]`  
 
-## Add a Department 
+## Add a Department. 
 Adds a Department to the database.
 
 - #### URL<br />
@@ -206,7 +206,7 @@ Adds a Department to the database.
     "deptname": "Business"
   }`
   
-## Update a Department 
+## Update a Department. 
 Adds a Department to the database.
 
 - #### URL<br />
@@ -231,7 +231,7 @@ Adds a Department to the database.
   "deptname": "Finance"
 }`
 
-## Delete a Department 
+## Delete a Department. 
 Delete a Department from the database.
 
 - #### URL<br />
