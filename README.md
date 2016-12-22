@@ -8,7 +8,7 @@ Used Servlet 3.0 Container.
 Language - Java 7
 Server - Apache Tomcat 7
 
-## Show Users
+## Show Employees
 Returns json data about all employees.
 
 - #### URL<br />
@@ -24,7 +24,7 @@ None
 None
 
 - #### Response
-  - #### Content: `[{
+  - # Content: `[{
     "dept": {
       "deptid": 1,
       "deptname": "Science"
