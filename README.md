@@ -24,7 +24,7 @@ None
 None
 
 - #### Response
-  - # Content: `[{
+  - ** Content:** `[{
     "dept": {
       "deptid": 1,
       "deptname": "Science"
