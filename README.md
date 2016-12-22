@@ -69,16 +69,11 @@ Adds an Employee to the database.
 
 - URL Params<br />
   - Required:<br />
-  `empid=[integer]`
+  `deptid=[integer]`
 
 - Response
-  - Content: `[{
-    "dept": {
-      "deptid": 1,
-      "deptname": "Science"
-    },
-    "empid": 1,
-    "firstname": "Michael",
-    "lastname": "Warner"
-  }
+ None
+  
+## Update Employee data
+Updates the data of an Employee
 
