@@ -1,4 +1,4 @@
-# EmployeeManagementSystem
+# Employee Management System
 It is RESTFUL APIs for managing a database of Employees and Department.
 
 
@@ -11,5 +11,9 @@ Server - Apache Tomcat 7
 ### Show Users
 Returns json data about all employees.
 - URL
+/EmployeeManagementSystem/webapi/employees
+
+- Method
+'GET'
 
 
