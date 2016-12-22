@@ -21,7 +21,7 @@ Returns json data about all employees.
 None
 
 - Response
-  - Content: `{
+  - Content: `[{
     "dept": {
       "deptid": 1,
       "deptname": "Science"
@@ -29,9 +29,19 @@ None
     "empid": 1,
     "firstname": "Michael",
     "lastname": "Warner"
-  }`
+  },{
+    "dept": {
+      "deptid": 2,
+      "deptname": "Science"
+    },
+    "empid": 1,
+    "firstname": "Michael",
+    "lastname": "Warner"
+  }]`
   
 ## Show Users by Employee id
 Returns json data about Employee
 
+- #### URL<br />
+/EmployeeManagementSystem/webapi/employees/1
 
