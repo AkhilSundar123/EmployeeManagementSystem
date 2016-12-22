@@ -53,7 +53,8 @@ Returns json data about Employee.
 `GET`
 
 - #### URL Params<br />
-None
+ - Required:<br />
+  `empid=[integer]`
 
 - #### Data Params<br />
 None
