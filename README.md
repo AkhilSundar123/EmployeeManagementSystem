@@ -14,17 +14,17 @@ Returns json data about all employees.
 - #### URL<br />
 /EmployeeManagementSystem/webapi/employees 
 
-- Method<br />
+- #### Method<br />
 `GET`
 
-- URL Params<br />
+- #### URL Params<br />
 None
 
-- Data Params<br />
+- #### Data Params<br />
 None
 
-- Response
-  - Content: `[{
+- #### Response
+  - #### Content: `[{
     "dept": {
       "deptid": 1,
       "deptname": "Science"
@@ -195,6 +195,13 @@ Adds a Department to the database.
 
 - Data Params<br />
  `{
+    "deptid": 3,
+    "deptname": "Business"
+  }`
+  
+- Response
+  - Content: 
+  `{
     "deptid": 3,
     "deptname": "Business"
   }`
