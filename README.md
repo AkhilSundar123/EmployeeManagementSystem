@@ -93,7 +93,7 @@ Adds an Employee to the database.
     "deptid": 2,
     "deptname": "Business"
   },
-  "empid": 22,
+  "empid": 3,
   "firstname": "Mat",
   "lastname": "Hayden"
 }`
@@ -102,7 +102,7 @@ Adds an Employee to the database.
 Updates the data of an Employee.
 
 - URL<br />
-/EmployeeManagementSystem/webapi/employees/2
+/EmployeeManagementSystem/webapi/employees/3
 
 - Method<br />
 `PUT`
@@ -116,15 +116,26 @@ Updates the data of an Employee.
   "dept": {
      "deptid": 2
   },
-  "firstname": "Matthew",
+  "firstname": "Adam",
   "lastname": "Hayden"
 }`
 
 - Response<br />
- None
+ `{
+  "dept": {
+    "deptid": 2
+  },
+  "empid": 3,
+  "firstname": "Adam",
+  "lastname": "Hayden"
+}`
 
 ## Delete Employee record
 Deletes record of an Employee.
+
+- URL<br />
+/EmployeeManagementSystem/webapi/employees/3
+
 - Method<br />
 `DELETE`
 
