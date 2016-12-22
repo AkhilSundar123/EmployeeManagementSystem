@@ -21,6 +21,6 @@ Returns json data about all employees.
 None
 
 - Response
-  -Content
+  - Content
 
 
