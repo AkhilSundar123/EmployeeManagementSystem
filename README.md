@@ -30,5 +30,8 @@ None
     "firstname": "Jacky",
     "lastname": "Baghnani"
   }`
+  
+## Show Users by Employee id
+Returns json data about Employee
 
 
