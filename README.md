@@ -51,6 +51,9 @@ Returns json data about Employee.
 - URL Params<br />
 None
 
+- Data Params<br />
+None
+
 - Response
   - Content: `{
     "dept": {
@@ -71,9 +74,35 @@ Adds an Employee to the database.
   - Required:<br />
   `deptid=[integer]`
 
-- Response
+- Data Params<br />
+`{
+  "dept": {
+    "deptname": "Technology"
+  },
+  "firstname": "Mat",
+  "lastname": "Hayden"
+}`
+
+- Response<br />
  None
   
 ## Update Employee data
 Updates the data of an Employee
+- Method<br />
+`PUT`
 
+- URL Params<br />
+  - Required:<br />
+  `empid=[integer]`
+
+- Data Params<br />
+`{
+  "dept": {
+     "deptid": 2
+  },
+  "firstname": "Matthew",
+  "lastname": "Hayden"
+}`
+
+- Response<br />
+ None
