@@ -24,7 +24,7 @@ None
 None
 
 - #### Response
-  - ** Content:** `[{
+  - Content: `[{
     "dept": {
       "deptid": 1,
       "deptname": "Science"
@@ -45,19 +45,19 @@ None
 ## Show Employee by id
 Returns json data about Employee.
 
-- URL<br />
+- #### URL<br />
 /EmployeeManagementSystem/webapi/employees/1
 
-- Method<br />
+- #### Method<br />
 `GET`
 
-- URL Params<br />
+- #### URL Params<br />
 None
 
-- Data Params<br />
+- #### Data Params<br />
 None
 
-- Response
+- #### Response
   - Content: `{
     "dept": {
       "deptid": 1,
@@ -71,17 +71,17 @@ None
 ## Add Employee 
 Adds an Employee to the database.
 
-- URL<br />
+- #### URL<br />
 /EmployeeManagementSystem/webapi/employees/2
 
-- Method<br />
+- #### Method<br />
 `POST`
 
-- URL Params<br />
+- #### URL Params<br />
   - Required:<br />
   `deptid=[integer]`
 
-- Data Params<br />
+- #### Data Params<br />
 `{
   "dept": {
     "deptname": "Technology"
@@ -90,7 +90,7 @@ Adds an Employee to the database.
   "lastname": "Hayden"
 }`
 
-- Response<br />
+- #### Response<br />
  `{
   "dept": {
     "deptid": 2,
@@ -104,17 +104,17 @@ Adds an Employee to the database.
 ## Update Employee data
 Updates the data of an Employee.
 
-- URL<br />
+- #### URL<br />
 /EmployeeManagementSystem/webapi/employees/3
 
-- Method<br />
+- #### Method<br />
 `PUT`
 
-- URL Params<br />
+- #### URL Params<br />
   - Required:<br />
   `empid=[integer]`
 
-- Data Params<br />
+- #### Data Params<br />
 `{
   "dept": {
      "deptid": 2
@@ -123,7 +123,7 @@ Updates the data of an Employee.
   "lastname": "Hayden"
 }`
 
-- Response<br />
+- #### Response<br />
  `{
   "dept": {
     "deptid": 2
