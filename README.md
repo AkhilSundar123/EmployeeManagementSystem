@@ -136,20 +136,20 @@ Updates the data of an Employee.
 ## Delete Employee record
 Deletes record of an Employee.
 
-- URL<br />
+- #### URL<br />
 /EmployeeManagementSystem/webapi/employees/3
 
-- Method<br />
+- #### Method<br />
 `DELETE`
 
-- URL Params<br />
+- #### URL Params<br />
   - Required:<br />
   `empid=[integer]`
 
-- Data Params<br />
+- #### Data Params<br />
 None
 
-- Response<br />
+- #### Response<br />
  None
 
 ## Show Departments
@@ -158,16 +158,16 @@ Returns json data about all employees.
 - #### URL<br />
 /EmployeeManagementSystem/webapi/departments 
 
-- Method<br />
+- #### Method<br />
 `GET`
 
-- URL Params<br />
+- #### URL Params<br />
 None
 
-- Data Params<br />
+- #### Data Params<br />
 None
 
-- Response
+- #### Response
   - Content: 
 `[
   {
@@ -183,23 +183,23 @@ None
 ## Add a Department 
 Adds a Department to the database.
 
-- URL<br />
+- #### URL<br />
 /EmployeeManagementSystem/webapi/departments
 
-- Method<br />
+- #### Method<br />
 `POST`
 
-- URL Params<br />
+- #### URL Params<br />
   - Required:<br />
   None
 
-- Data Params<br />
+- #### Data Params<br />
  `{
     "deptid": 3,
     "deptname": "Business"
   }`
   
-- Response
+- #### Response
   - Content: 
   `{
     "deptid": 3,
@@ -209,22 +209,22 @@ Adds a Department to the database.
 ## Update a Department 
 Adds a Department to the database.
 
-- URL<br />
+- #### URL<br />
 /EmployeeManagementSystem/webapi/departments/3
 
-- Method<br />
+- #### Method<br />
 `PUT`
 
-- URL Params<br />
+- #### URL Params<br />
   - Required:<br />
  `deptid=[integer]`
 
-- Data Params<br />
+- #### Data Params<br />
  `{
     "deptname": "Finance"
   }`
   
-- Response
+- #### Response
   - Content: 
   `{
   "deptid": 3,
@@ -234,18 +234,18 @@ Adds a Department to the database.
 ## Delete a Department 
 Delete a Department from the database.
 
-- URL<br />
+- #### URL<br />
 /EmployeeManagementSystem/webapi/departments/3
 
-- Method<br />
+- #### Method<br />
 `DELETE`
 
-- URL Params<br />
+- #### URL Params<br />
   - Required:<br />
  `deptid=[integer]`
 
-- Data Params<br />
+- #### Data Params<br />
  - None
   
-- Response
+- #### Response
   - None
