@@ -14,7 +14,13 @@ Returns json data about all employees.
 - URL<br />
 /EmployeeManagementSystem/webapi/employees 
 
-- Method
+- Method<br />
 `GET`
+
+- URL Params<br />
+None
+
+- Response
+  -- Content
 
 
